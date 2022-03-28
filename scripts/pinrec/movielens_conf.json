@@ -1,0 +1,39 @@
+{
+  "id_dimension": 32,
+  "id_vocab": 4545,
+  "classifier": [128, 64],
+  "embedding_layer_name_list": ["_id_encoder._embedding_matrix.weight"],
+  "model_name_list": [
+        "_id_encoder._embedding_matrix.weight",
+        "_target_trans.net.0.weight",
+        "_target_trans.net.0.bias",
+        "_seq_trans.net.0.weight",
+        "_seq_trans.net.0.bias",
+        "_target_attention._target_key_transform.net.weight",
+        "_target_attention._item_key_transform.net.weight",
+        "_target_attention._value_transform.net.weight",
+        "_classifier.net.0.weight",
+        "_classifier.net.0.bias",
+        "_classifier.net.2.weight",
+        "_classifier.net.2.bias",
+        "_classifier.net.4.weight",
+        "_classifier.net.4.bias"
+    ],
+  "feature_extractor_name_list": [
+    "_target_trans.net.0.weight",
+    "_target_trans.net.0.bias",
+    "_seq_trans.net.0.weight",
+    "_seq_trans.net.0.bias",
+    "_target_attention._target_key_transform.net.weight",
+    "_target_attention._item_key_transform.net.weight",
+    "_target_attention._value_transform.net.weight"
+  ],
+  "classifier_name_list": [
+    "_classifier.net.0.weight",
+    "_classifier.net.0.bias",
+    "_classifier.net.2.weight",
+    "_classifier.net.2.bias",
+    "_classifier.net.4.weight",
+    "_classifier.net.4.bias"
+  ]
+}
