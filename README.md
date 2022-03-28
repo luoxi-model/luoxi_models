@@ -6,7 +6,7 @@ The Luoxi platform (https://arxiv.org/abs/2111.06061) provides one-stop edge-clo
 ## Project Architecture
 - backend
   - dataset_hub: Provides a `BaseDataset` that subclasses `torch.utils.data.Dataset` to process data into samples and label, and implement classes specific to the particular models.
-  - model_hub: Provides the MobileM6, CIGAR, ECRec, MCRec, and PIN models that subclass the `torch.nn.Module` class.
+  - model_hub: Provides the CIGAR, ECRec, MCRec, and PIN models that subclass the `torch.nn.Module` class.
 - scripts: Provides training and inference shell scripts specific to the particular model.
 - train_hub: Provides functions to execute models. `train_hub/model_execution_template.py` is a template we provide that defines the training and inference process of a model by implementing the interface methods we provide
 
@@ -111,8 +111,8 @@ optional arguments:
 ```
 - The example for CIGAR
 ```shell
-git clone https://github.com/xxx/Luoxi.git
-cd Luoxi/
+git clone https://github.com/luoxi-model/luoxi_models.git
+cd luoxi_models/
 # Training
 ./scripts/cigar/cigar_training.sh
 # Inference
@@ -330,8 +330,8 @@ optional arguments:
 ```
 - The example for GGCN
 ```shell
-git clone https://github.com/xxx/Luoxi.git
-cd Luoxi/
+git clone https://github.com/luoxi-model/luoxi_models.git
+cd luoxi_models/
 # Training
 ./scripts/GGCN/ggcn_training.sh
 # Inference
@@ -394,8 +394,8 @@ optional arguments:
 ```
 - The example for PINRec
 ```shell
-git clone https://github.com/xxx/Luoxi.git
-cd Luoxi/
+git clone https://github.com/luoxi-model/luoxi_models.git
+cd luoxi_models/
 # Training
 ./scripts/pinrec/pinrec_training.sh
 # Inference
