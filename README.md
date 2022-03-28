@@ -1,12 +1,12 @@
 # Luoxi Edge-Cloud Collaboration Platform
 
-The Luoxi platform (https://arxiv.org/abs/2111.06061) provides one-stop edge-cloud collaborative model training, inference, and deployment capabilities, and is committed to promoting the collaborative evolution of large and small models. The first version is mainly to provide our self-developed device-cloud collaboration models, including MobileM6, CIGAR, ECRec, MCRec, and PIN. In later versions, we will open-source the basic framework-level API, model checkpoints, etc.
+The Luoxi platform (https://arxiv.org/abs/2111.06061) provides one-stop edge-cloud collaborative model training, inference, and deployment capabilities, and is committed to promoting the collaborative evolution of large and small models. The first version is mainly to provide our self-developed device-cloud collaboration models, including MobileM6, CIGAR, ECRec, MCRec, GGCN and PINRec. In later versions, we will open-source the basic framework-level API, model checkpoints, etc.
 
 
 ## Project Architecture
 - backend
   - dataset_hub: Provides a `BaseDataset` that subclasses `torch.utils.data.Dataset` to process data into samples and label, and implement classes specific to the particular models.
-  - model_hub: Provides the CIGAR, ECRec, MCRec, and PIN models that subclass the `torch.nn.Module` class.
+  - model_hub: Provides the CIGAR, ECRec, MCRec, GGCN and PINRec models that subclass the `torch.nn.Module` class.
 - scripts: Provides training and inference shell scripts specific to the particular model.
 - train_hub: Provides functions to execute models. `train_hub/model_execution_template.py` is a template we provide that defines the training and inference process of a model by implementing the interface methods we provide
 
