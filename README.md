@@ -1,6 +1,6 @@
 # Luoxi Edge-Cloud Collaboration Platform
 
-The Luoxi platform (https://arxiv.org/abs/2111.06061) provides one-stop edge-cloud collaborative model training, inference, and deployment capabilities, and is committed to promoting the collaborative evolution of large and small models. The first version is mainly to provide our self-developed device-cloud collaboration models, including MobileM6, CIGAR, ECRec, MCRec, GGCN and PINRec. In later versions, we will open-source the basic framework-level API, model checkpoints, etc.
+The Luoxi platform (https://arxiv.org/abs/2111.06061) provides one-stop edge-cloud collaborative model training, inference, and deployment capabilities, and is committed to promoting the collaborative evolution of large and small models. The first version is mainly to provide our self-developed device-cloud collaboration models, including CIGAR, ECRec, MCRec, GGCN and PINRec. In later versions, we will open-source the basic framework-level API, model checkpoints, etc.
 
 
 ## Project Architecture
