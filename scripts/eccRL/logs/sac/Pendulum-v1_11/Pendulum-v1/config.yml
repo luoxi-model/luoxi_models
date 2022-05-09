@@ -1,0 +1,7 @@
+!!python/object/apply:collections.OrderedDict
+- - - learning_rate
+    - 0.001
+  - - n_timesteps
+    - 20000
+  - - policy
+    - MlpPolicy
